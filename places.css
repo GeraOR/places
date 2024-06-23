@@ -1,0 +1,62 @@
+/* Body */
+body{
+    background: linear-gradient(to bottom, #76D7C4 , #BB8FCE);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+}
+.titulo{
+    align-items: center;
+    margin-bottom: 20px;
+}
+/* Pics */
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.foto{
+    width: calc(24%);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.foto img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+/* Boton */
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+button{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 150px;
+    font-weight: bold;
+}
+.back{
+    background-color: #76D7C4;
+}
