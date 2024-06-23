@@ -20,13 +20,6 @@ setInterval(actualizarContador, 1000);
 // Llamar a la función una vez al cargar la página para mostrar el resultado inicial
 actualizarContador();
 
-// BOTONES
-function enterWe(){
-    window.location.href = "/html/we.html";
-}
-function enterPlaces(){
-    window.location.href = "/html/we.html";
-}
 function back(){
-    window.location.href = "/index.html"
+    window.location.href = "https://geraor.github.io/My-Girl/"
 }
